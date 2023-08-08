@@ -5,15 +5,6 @@ create table employees(
 
 select * from employees;
 
-//НЕ ПОЛУЧИЛОСЬ РЕАЛИЗОВАТЬ
-DECLARE i int DEFAULT 0;
-   WHILE i<70 DO
-    insert into employees(employee_name)
-	values (CONCAT('Name', ' ', i))
-     SET i=i+1;
-   END WHILE;
-
-
 insert into employees(employee_name)
 values ('Ашра'),
 ('Барака'),
