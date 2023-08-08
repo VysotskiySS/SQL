@@ -119,7 +119,7 @@ join employee_salary
 on employees.id = employee_salary.employee_id 
 join salary on employee_salary.salary_id = salary.id
 where role_name like '%Junior%';
-
+```
  13. Вывести имена и зарплаты Middle специалистов;
 ```
 select employee_name, monthly_salary
