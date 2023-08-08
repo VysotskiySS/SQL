@@ -314,9 +314,9 @@ join employee_salary
 on employees.id = employee_salary.employee_id 
 join salary on employee_salary.salary_id = salary.id
 order by monthly_salary;
-
+```
  30. Вывести имена, должности и ЗП всех специалистов по возрастанию у специалистов у которых ЗП от 1700 до 2300;
-
+```
 select employee_name, role_name, monthly_salary
 from roles join roles_employee
 on roles.id = roles_employee.role_id 
